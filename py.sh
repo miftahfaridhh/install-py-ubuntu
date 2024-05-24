@@ -30,7 +30,7 @@ cd Python-${PYTHON_VERSION}
     --enable-ipv6 \
     LDFLAGS=-Wl,-rpath=/opt/python/${PYTHON_VERSION}/lib,--disable-new-dtags
 make
-sudo make install -y
+sudo make install
 
 cd ~
 
@@ -41,6 +41,10 @@ sudo update-alternatives --install /usr/bin/python3 python3 /opt/python/${PYTHON
 sudo update-alternatives --config python3
 
 python3 --version
+
+python3 -m pip install --upgrade pip 
+
+python3 -m pip install -r req.txt
 
 
 # cd ~
