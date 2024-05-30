@@ -1,0 +1,7 @@
+opencv-python 
+imread-from-url 
+onnxruntime 
+cap-from-youtube 
+opencv-contrib-python 
+pyserial 
+paho-mqtt
