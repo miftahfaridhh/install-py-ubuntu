@@ -45,14 +45,3 @@ python3 --version
 python3 -m pip install --upgrade pip 
 
 python3 -m pip install -r req.txt
-
-
-# cd ~
-
-# sudo sh -c 'echo "PATH=/opt/python/3.10.13/bin/:$PATH" >> /etc/profile.d/python.sh'
-# sudo chmod +x /etc/profile.d/python.sh
-# source /etc/profile.d/python.sh
-
-# python3 --version
-
-
